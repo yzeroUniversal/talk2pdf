@@ -38,7 +38,7 @@ from langchain_ollama import OllamaLLM
 def download_sample_pdf(folder: str) -> str:
     os.makedirs(folder, exist_ok=True)
     sample_path = os.path.join(folder, "sample.pdf")
-    sample_url = "https://www.archives.gov/files/founding-docs/declaration_transcript.pdf"
+    sample_url = "https://www.nasa.gov/pdf/55583main_vision_space_exploration2.pdf"
 
     print("📥 No PDFs found — grabbing a sample one...")
     try:
