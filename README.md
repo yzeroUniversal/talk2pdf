@@ -18,11 +18,11 @@ A Python-based tool that ingests PDF files, stores their content in a vector dat
 git clone https://github.com/yourusername/pdf-qa-tool.git
 cd pdf-qa-tool
 pip install -r requirements.txt
-
+```
 ### Step 2: Create a virtual environment
 ```bash
 conda create -n venv
-
+```
 ---
 
 🚀 Quick Start
