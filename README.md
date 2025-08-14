@@ -11,13 +11,19 @@ A Python-based tool that ingests PDF files, stores their content in a vector dat
 
 ---
 
-## 📦 Installation
-Clone this repository and install dependencies:
+## 📦 Setup and Installation
+
+### Step 1: Clone the repository
 ```bash
 git clone https://github.com/yourusername/pdf-qa-tool.git
 cd pdf-qa-tool
 pip install -r requirements.txt
 
+### Step 2: Create a virtual environment
+```bash
+conda create -n venv
+
+---
 
 🚀 Quick Start
 
@@ -37,7 +43,9 @@ When prompted: ❓ Enter a question (or 'exit' to quit): What is the main topic 
 4. Exit
 Type exit to quit the interactive session.
 
-# COMMAND LINE OPTIONS
+---
+
+## COMMAND LINE OPTIONS
 
 | Option               | Default            | Description                           |
 | -------------------- | ------------------ | ------------------------------------- |
