@@ -40,7 +40,7 @@ mkdir pdfs
 ```
 ---
 
-🚀 Quick Start
+### 🚀 Quick Start
 
 1. Add PDFs
 Place your PDF files in the pdfs/ folder.
