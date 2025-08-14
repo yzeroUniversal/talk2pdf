@@ -71,7 +71,7 @@ python talkpdf.py
 ```
 
 ## COMMAND LINE OPTIONS
-```
+
 | Option               | Default            | Description                           |
 | -------------------- | ------------------ | ------------------------------------- |
 | `--pdf-folder`       | `pdfs`             | Folder containing PDF files           |
@@ -79,7 +79,7 @@ python talkpdf.py
 | `--embeddings-model` | `all-MiniLM-L6-v2` | HuggingFace embeddings model          |
 | `--llm-model`        | `llama3`           | Ollama model to use                   |
 | `--chunks`           | `4`                | Number of document chunks to retrieve |
-```
+
 ```bash
 python readpdf.py --pdf-folder ./pdfs --persist-dir ./my_db --llm-model llama3
 ```
