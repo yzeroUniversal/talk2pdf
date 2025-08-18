@@ -113,7 +113,7 @@ def start_qa(persist_dir: str, model_name: str, llm_model: str, chunks: int) -> 
             continue
 
         t0 = time.time()
-        res = qa(query)
+        res = qa.invoke(query)
         t1 = time.time()
 
         print(f"\n💬 {res['result']}")
